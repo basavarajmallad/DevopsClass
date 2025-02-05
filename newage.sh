@@ -9,4 +9,6 @@ linenum=0
         if [ $age -gt 35 ]; then
 	    echo "$name"
 	fi
-done <$filename
+done
+echo "test this github"
+<$filename
