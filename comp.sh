@@ -1,10 +1,13 @@
 #!/bin/bash
 echo "enter first number"
-read num1
+#read num1
+num1=$1
 echo "enter second  number"
-read num2
+#read num2
+num2=$2
 echo "enter  third number"
-read num3
+#read num3
+num3=$3
 echo "--------"
 if [ $num1 -gt $num2 ] && [ $num1 -gt $num3 ]
    then
