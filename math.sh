@@ -1,9 +1,11 @@
 #!/bin/bash
 echo "shell script of arithmetic operator"
-echo " enter values of 1st number"
-read num1
-echo " enter vales of second number"
-read num2 
+echo " enter values of 1st number $1"
+#read num1=$1
+num1=$1
+echo " enter vales of second number $2"
+#read num2=$2
+num2=$2
 add=`expr $num1 + $num2`
 sub=`expr $num1 - $num2`
 multi=`expr $num1 \* $num2`
