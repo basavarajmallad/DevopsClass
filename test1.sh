@@ -1,3 +1,3 @@
 #!/bin/bash
 var=$(echo "basavaraj" | rev)
-echo "wellocme $var never "
+echo "wellocme $var never one "
